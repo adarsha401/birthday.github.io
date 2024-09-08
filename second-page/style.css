@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(30deg,rgb(211,230,63),rgb(57,57,248));
+  align-items: center;
+  justify-content: center;
+}
+.card-container{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(30deg,rgb(211,230,63),rgb(57,57,248));
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width:100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  
+}
+.card:nth-child(1){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.7&permmsgid=msg-f:1809464968744731776&th=191c82cd578b0480&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8ywuhzkrEb1X8wvGdDOOh6KNvmRI_ZZ1OJNH-LfDZLcaoEzExTb64UQb3q7o6p33jE9SRrA-CRFrkxY-LSEU7ojuyInTFX6eiC11N7zJUWQyyFGhX8X2pf5QM&disp=emb&realattid=ii_191c82004a99a1fc0de7);
+
+}
+
+.card:nth-child(2){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.10&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_moYjzlljk1i9PXLkk6BmcIjCtL9hXeivRt97yqpX2ylv_QAu4TWxExfqVvQ6HoYKHjSdgLM3zV9hWSbk4ojt0dFlXF3TSWoIRrQnS84mWA4ehJ285Chm9HGA&disp=emb&realattid=ii_191c885a5609ee9bdb55);
+}
+.card:nth-child(3){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.6&permmsgid=msg-f:1809464968744731776&th=191c82cd578b0480&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_vZoMByr4he9cuG3tqQW0arIMl1zmdtTzoFpu-M5C0MpE4XC-h3plbDzbyMNg0qvF3C5hkqTXJRZoqjfEaql5WDB4x5P1kv8QmKuABkpfzBvh0L0RU8SW_vW8&disp=emb&realattid=ii_191c81f784e6a1fb1765);
+}
+.card:nth-child(4){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.8&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_DpSTYx9XFmd5-Wph5BoLk3t9i9IlNQYg5Dz8xgyGfky4-tw2A8B6oI-KDKoQBL4aF8UIkFFU49tjmmmtTPRfE14d-2w5akKl9cj9kfjJ7jcFSPBeO39KrbBI&disp=emb&realattid=ii_191c88586159f05ecb73);
+}
+.card:nth-child(5){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.7&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9JK2pjo68HdvyuIH25NNE6MSkDxV3jplrvnDwVY0PdhffZya4eXEvla4WeFFQhuHip7LKOErwBZleOqWeQyW-Mux930l3pDHN8h5IyPYRLoxB_8ZL-e1zIh4A&disp=emb&realattid=ii_191c8855e799f1404382);
+}
+.card:nth-child(6){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.13&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_GY_bR-_OYog43PoTg62eAgTPuJHduRXI78JUizWU5HzEDa-SXcg962afU5RyhJJwbZC-hMhibSUkQO53_mU2YG3tjNncyy2u3st8zho-BEI5zEY3h2QQJf0E&disp=emb&realattid=ii_191c886266f69e753728);
+}
+.card:nth-child(7){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.3&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8U19SW55ivr-M9ClCqV25_5fmKm6uUYoH3CPcI_9yCeeIlzlRFgx8Gst2VKI0y0m6r3OZlGRV6zEqqKAajKp6O2xxdiEGBjh2gHDR8blDOpTK9JwEO4hRu8Ko&disp=emb&realattid=ii_191c881d01c9a0391dc3);
+}
+.card:nth-child(8){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.1&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_WbO_xGRdKPK66PtYrclUv2xnJkghwaBrRPPYcOfKQrr2cQEgOGDQrO_8GNH4-5K_Vk9eeWZdVueYbJPKE6Ue7VlP3LtuK9X4FuLbrbzjBBhpknCic6MIGK70&disp=emb&realattid=ii_191c880973a3a49e8911);
+}
+.card:nth-child(9){
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=6e0cd5146a&attid=0.5&permmsgid=msg-f:1809471216614609874&th=191c887c099b93d2&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_FNXLUg8Dqiw_gMBBexGpWE1BhKkhFARg2B9pjs8CEp5NVQbvJI-mltAeYMu5bLOJpSbJl9VlzR9LS9TKgjqc7DEksgijAK_Vuf3QayVha4rSU-AzP3OlnJ_s&disp=emb&realattid=ii_191c8821a576b9c2c115);
+}
+
+
+.card:hover{
+  width:300px;
+  cursor:pointer;
+  box-shadow: 0px 10px 14px 15px rgb(40, 193, 231);
+}
+.back-button{
+  border: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 13px;
+  margin-left: 3px;
+  color: rgb(213, 219, 225);
+  background-color: transparent;
+  margin-top: 20px;
+  background: linear-gradient(315deg, #00ccff, #d400d4);
+}
+.back-button:hover{
+  width: 60px;
+  box-shadow: 0px 3px 4px 5px blueviolet;
+  transition: 0.4s;
+  border: none;
+}
+
+h1 {
+  margin-left: 550px;
+  position: relative;
+  color: aliceblue;
+  font-size: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  text-shadow: 0px 0px 10px rgb(26, 161, 199),
+    0px 0px 20pX rgb(26, 161, 199),
+    0px 0px 30px rgb(26, 161, 199),
+    0px 0px 40px rgb(26, 161, 199),
+    0px 0px 50px rgb(26, 161, 199)
+}
+h2 {
+  margin-left: 300px;
+  color: aliceblue;
+  font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  text-shadow: 0px 0px 10px rgb(26, 161, 199),
+    0px 0px 20pX rgb(26, 161, 199),
+    0px 0px 30px rgb(26, 161, 199),
+    0px 0px 40px rgb(26, 161, 199),
+    0px 0px 50px rgb(26, 161, 199);
+}
+h1:hover,h2:hover,h3:hover{
+  text-shadow: 0px 10px 15px 20px rgb(91, 219, 245),rgb(134, 33, 229);
+ transition: 0.55s;
+ color: rgb(91, 219, 245);
+
+}
+h3 {
+  margin-left: 250px;
+  color: aliceblue;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  text-shadow: 0px 0px 10px rgb(18, 145, 183),
+    0px 0px 15pX rgb(48, 138, 177),
+    0px 0px 20px rgb(26, 161, 199),
+    0px 0px 25px rgb(26, 161, 199),
+    0px 0px 30px rgb(26, 161, 199);
+  }
+  .box{
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+.letter {
+  background-image: url(https://t3.ftcdn.net/jpg/01/15/12/92/360_F_115129269_kx1nTIkp1XKwjVIGpRjabzgfvEFYdjQE.jpg);
+ background-size: cover;
+ background-color: #ffffff;
+ padding: 30px;
+ margin: 30px;
+ border-radius: 10px;
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+ color:antiquewhite;
+ animation: fadeIn 2s ease;
+}
+.letter h2 {
+ font-size: 36px;
+ color: #d81b60;
+}
+.letter p {
+ font-size: 20px;
+ line-height: 1.6;
+}
